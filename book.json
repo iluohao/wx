@@ -1,0 +1,28 @@
+{
+    "root": "./",
+    "title": "罗浩资源库",
+    "head_title": "_一学就会的营销教程",
+    "head_description": "按照步骤，快速学会建站，推荐使用罗浩云主机，西数钻石代理",
+    "head_keywords": "wiki,文档部署",
+    "logo": "./images/logo.png",
+
+    "gitbook": ">= 3.0.0",
+
+    "language": "zh-hans",
+
+    "plugins": [
+        "-sharing",
+        "-fontsettings",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "theme-official",
+        "sitemap-general"
+    ],
+
+    "pluginsConfig": {
+        "sitemap-general": {
+            "prefix": "http://iluohao.cn/"
+        }
+    }
+}
